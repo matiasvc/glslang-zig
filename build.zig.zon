@@ -5,13 +5,13 @@
     .minimum_zig_version = "0.15.0-dev.1145+3ae0ba096",
     .dependencies = .{
         .glslang = .{
-            .path = "../glslang",
+            .path = "../../external/glslang",
         },
         .@"SPIRV-Tools" = .{
-            .path = "../SPIRV-Tools",
+            .path = "../../external/SPIRV-Tools",
         },
         .@"SPIRV-Headers" = .{
-            .path = "../SPIRV-Headers",
+            .path = "../../external/SPIRV-Headers",
         },
     },
     .paths = .{
